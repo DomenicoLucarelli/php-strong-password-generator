@@ -17,7 +17,9 @@ function passwordGenerator($length){
   
     return implode($password);
   
-  }
+  };
+
+  
   
 
 
