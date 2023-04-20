@@ -10,7 +10,7 @@ function passwordGenerator($length){
   
     for($i = 0 ; $i < $length ; $i++){
   
-      $n = rand(0, $charactersLength);
+      $n = rand(0, $charactersLength-1);
   
       $password[] = $characters[$n];
     }
